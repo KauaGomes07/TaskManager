@@ -7,7 +7,7 @@ export async function createTaskMenu(){
 
     do {
         name = await text({
-            message: "Digite o nome da tarefa?"
+            message: "Digite o nome da tarefa"
         })
 
         if (taskManager.tasks.has(name)) {
